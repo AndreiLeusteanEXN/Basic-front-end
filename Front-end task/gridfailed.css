@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+
+@font-face {
+    font-family: Flamabook;
+    src: url("./Flama-Book-webfont.woff2"),
+         url("./Flama-Bold-webfont.woff2");
+}
+
+body {
+    margin: 0 20%;
+    padding: 0;
+    font-family: Flamabook;
+    color: #8b8b8d;
+}
+
+/* */
+
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    align-self: flex-end;
+}
+
+.navbar li {
+    display: inline-block;
+    flex: 0 1 auto;
+    padding-left: 20px;
+}
+
+
+
+.logo__company{
+    width: 130px;
+    height: 60px;
+}
+
+/* .navbar li a{
+    text-decoration: none;
+}  */
+
+.navbar__link:hover{
+    color: #7cba00;
+}
+
+.navbar__link{
+    color: #8b8b8d;
+    text-decoration: none;
+}
+
+main {
+    margin: 0;
+    width: 100%;
+    color: white;
+}
+
+main img{
+    position: relative;
+    display: block;
+    margin: 0!important;
+    height: 540px;
+    left: -20vw;
+    width: 99.9vw;
+}
+
+.main__container {
+    position: relative;
+}
+
+.main__text {
+    position: absolute;
+    bottom: 0;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: justify;
+    margin-bottom: 2vw;
+}
